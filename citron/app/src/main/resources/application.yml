@@ -1,0 +1,12 @@
+server:
+  port: 8080  # 애플리케이션 포트 설정
+
+spring:
+  application:
+    name: citron  # 애플리케이션 이름 설정
+
+# 데이터베이스 설정 예시
+# datasource:
+#   url: jdbc:mysql://localhost:3306/yourdb
+#   username: yourusername
+#   password: yourpassword

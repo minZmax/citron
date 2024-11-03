@@ -1,0 +1,5 @@
+version: 0.0
+os: linux  # 또는 `windows` 
+files:
+  - source: /  # 배포할 파일의 경로
+    destination: /home/ec2-user/build/  # EC2 인스턴스 내 설치 위치
